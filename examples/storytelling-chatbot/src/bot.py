@@ -25,7 +25,7 @@ from pipecat.processors.aggregators.openai_llm_context import OpenAILLMContext
 from pipecat.services.elevenlabs.tts import ElevenLabsTTSService
 from pipecat.services.google.image import GoogleImageGenService
 from pipecat.services.google.llm import GoogleLLMService
-from pipecat.transports.services.daily import (
+from pipecat.transports.services.ldaily import (
     DailyParams,
     DailyTransport,
     DailyTransportMessageFrame,

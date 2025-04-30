@@ -20,7 +20,7 @@ from pipecat.pipeline.runner import PipelineRunner
 from pipecat.pipeline.task import PipelineParams, PipelineTask
 from pipecat.processors.aggregators.openai_llm_context import OpenAILLMContext
 from pipecat.services.gemini_multimodal_live.gemini import GeminiMultimodalLiveLLMService
-from pipecat.transports.services.daily import DailyParams, DailyTransport
+from pipecat.transports.services.ldaily import DailyParams, DailyTransport
 
 load_dotenv(override=True)
 

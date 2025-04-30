@@ -21,7 +21,7 @@ from pipecat.services.openai.llm import OpenAILLMService
 from pipecat.transports.base_transport import TransportParams
 from pipecat.transports.network.small_webrtc import SmallWebRTCTransport
 from pipecat.transports.network.webrtc_connection import SmallWebRTCConnection
-from pipecat.transports.services.daily import DailyTransportMessageFrame
+from pipecat.transports.services.ldaily import DailyTransportMessageFrame
 
 load_dotenv(override=True)
 

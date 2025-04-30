@@ -33,7 +33,7 @@ from pipecat.services.deepgram.stt import DeepgramSTTService
 from pipecat.services.google.google import GoogleLLMContext
 from pipecat.services.google.llm import GoogleLLMService
 from pipecat.services.llm_service import LLMService  # Base LLM service class
-from pipecat.transports.services.daily import (
+from pipecat.transports.services.ldaily import (
     DailyParams,
     DailyTransport,
 )

@@ -27,7 +27,7 @@ from pipecat.frames.frames import (
 )
 from pipecat.processors.frame_processor import FrameDirection, FrameProcessor
 from pipecat.services.google.llm import GoogleLLMService
-from pipecat.transports.services.daily import DailyTransportMessageFrame
+from pipecat.transports.services.ldaily import DailyTransportMessageFrame
 
 sounds = load_sounds(["talking.wav", "listening.wav", "ding.wav"])
 

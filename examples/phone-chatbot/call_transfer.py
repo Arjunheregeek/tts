@@ -31,7 +31,7 @@ from pipecat.processors.frame_processor import FrameDirection, FrameProcessor
 from pipecat.services.cartesia.tts import CartesiaTTSService
 from pipecat.services.llm_service import LLMService
 from pipecat.services.openai.llm import OpenAILLMService
-from pipecat.transports.services.daily import DailyDialinSettings, DailyParams, DailyTransport
+from pipecat.transports.services.ldaily import DailyDialinSettings, DailyParams, DailyTransport
 
 load_dotenv(override=True)
 

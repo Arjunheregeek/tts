@@ -24,7 +24,7 @@ from pipecat.processors.frame_processor import FrameDirection
 from pipecat.processors.logger import FrameLogger
 from pipecat.services.cartesia.tts import CartesiaTTSService
 from pipecat.services.openai.llm import OpenAILLMContext, OpenAILLMService
-from pipecat.transports.services.daily import DailyParams, DailyTransport
+from pipecat.transports.services.ldaily import DailyParams, DailyTransport
 
 load_dotenv(override=True)
 

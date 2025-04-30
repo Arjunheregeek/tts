@@ -13,7 +13,7 @@ from pipecat.processors.aggregators import SentenceAggregator
 from pipecat.services.azure import AzureLLMService, AzureTTSService
 from pipecat.services.elevenlabs import ElevenLabsTTSService
 from pipecat.services.fal import FalImageGenService
-from pipecat.transports.services.daily import DailyTransport
+from pipecat.transports.services.ldaily import DailyTransport
 
 load_dotenv(override=True)
 

@@ -25,7 +25,7 @@ from pipecat.services.cartesia.tts import CartesiaTTSService
 from pipecat.services.deepgram.stt import DeepgramSTTService
 from pipecat.services.google.llm import GoogleLLMService, LLMSearchResponseFrame
 from pipecat.services.google.rtvi import GoogleRTVIObserver
-from pipecat.transports.services.daily import DailyParams, DailyTransport
+from pipecat.transports.services.ldaily import DailyParams, DailyTransport
 from pipecat.utils.text.markdown_text_filter import MarkdownTextFilter
 
 sys.path.append(str(Path(__file__).parent.parent))
